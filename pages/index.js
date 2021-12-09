@@ -6,9 +6,9 @@ export default function Home() {
       <div className="display">
         <div className="sidebar">
           <div></div>
-          <img src="/logo.png" width="auto" height="24px" />
+          <img src="logo.png" width="auto" height="24px" />
           <div>
-            <Link href="./signin">
+            <Link href="">
               <button className="btn-signin">Sign In</button>
             </Link>
             <button className="btn-signup">Sign Up</button>
@@ -18,62 +18,62 @@ export default function Home() {
           <h1>Restaurants and more, delivered to your door</h1>
         </div>
         <div className="input-header">
-          <img src="/pin.png" width="auto" height="20px" />
+          <img src="pin.png" width="auto" height="20px" />
           <input type="text" placeholder="Enter your delivery address" />
           <button className="button-next">
-            <img src="/next.png" width="auto" height="20px" />
+            <img src="next.png" width="auto" height="20px" />
           </button>
         </div>
       </div>
       <div className="container">
         <div className="container-box">
-          <img src="./scoot.svg" width="auto" height="auto" />
+          <img src="scoot.svg" width="auto" height="auto" />
           <h1>Become a Dasher</h1>
           <p>
-            As a delivery driver, you'll make reliable money-working
+            As a delivery driver, youll make reliable money-working
             anytime,anywhere.
           </p>
           <button className="button-container-box">
             Start earning
-            <img src="/next1.jpeg" width="" height="14px" />
+            <img src="next1.jpeg" width="" height="14px" />
           </button>
         </div>
         <div className="container-box">
-          <img src="./house.svg" width="auto" height="auto" />
+          <img src="house.svg" width="auto" height="auto" />
           <h1>Become a Partner</h1>
           <p>
             Grow your business and reach new costumers by partnering with us.
           </p>
           <button className="button-container-box">
             Sign up your store
-            <img src="./next1.jpeg" width="16px" height="20px" />
+            <img src="next1.jpeg" width="16px" height="20px" />
           </button>
         </div>
         <div className="container-box">
-          <img src="./mobile.svg" width="154" height="154" />
+          <img src="mobile.svg" width="154" height="154" />
           <h1>Try the App</h1>
           <p>
             Experience the best your neighborhood has to offer, all in one app.
           </p>
           <button className="button-container-box">
             Get the app
-            <img src="./next1.jpeg" width="16px" height="20px" />
+            <img src="next1.jpeg" width="16px" height="20px" />
           </button>
         </div>
       </div>
       <div className="container-box-app">
         <div className="container-box-app-title">
-          <h1>It`s all here. All in one app.</h1>
+          <h1>Its all here. All in one app.</h1>
           <p>
             Discover local, on-demand delivery or Pickup from restaurants,
             nearby grocery and convenience stotes, and more.
           </p>
           <button className="button-container-box-applace">Get the app</button>
         </div>
-        <img src="./food.jpg" width="720" height="auto" />
+        <img src="food.jpg" width="720" height="auto" />
       </div>
       <div className="container-box-place">
-        <img src="./food-vegetable.jpg" width="720" height="auto" />
+        <img src="food-vegetable.jpg" width="720" height="auto" />
         <div className="container-box-place-title">
           <h1>Every Flavor Welcome</h1>
           <p>
@@ -290,14 +290,14 @@ export default function Home() {
           </ul>
           <div className="iklan">
             <div className="ios">
-              <img src="/phone.png" alt="background" />
+              <img src="phone.png" alt="background" />
               <div>
                 <p>Available on the</p>
                 <h4>App Store</h4>
               </div>
             </div>
             <div className="andro">
-              <img src="/google-play.png" alt="background" />
+              <img src="google-play.png" alt="background" />
               <div>
                 <h4>ANDROID APP STORE</h4>
                 <p>Google Play</p>
@@ -307,22 +307,22 @@ export default function Home() {
         </div>
         <div className="footer">
           <div className="desc-footer">
-            <img src="./logoD.png" width="auto" height="20px" />
+            <img src="logoD.png" width="auto" height="20px" />
             <p>Terms of Service</p>
             <p>Privacy</p>
             <p>Notice At Collection</p>
             <p>Delivery Locations</p>
-            <p> &copy; 2021 DoorDash</p>
+            <p> © 2021 DoorDash</p>
           </div>
           <div className="img-footer">
             <a href="">
-              <img src="./facebook .png" width="auto" height="20px" />
+              <img src="facebook .png" width="auto" height="20px" />
             </a>
             <a href="">
-              <img src="./twitter.png" width="auto" height="20px" />
+              <img src="twitter.png" width="auto" height="20px" />
             </a>
             <a href="">
-              <img src="./instagram.png" width="auto" height="20px" />
+              <img src="instagram.png" width="auto" height="20px" />
             </a>
           </div>
         </div>
