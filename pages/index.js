@@ -1,6 +1,3 @@
-import Head from "next/head";
-import styles from "/";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -30,11 +27,7 @@ export default function Home() {
       </div>
       <div className="container">
         <div className="container-box">
-          <img
-            src="https://cdn.doordash.com/media/consumer/home/landing/new/ScootScoot.svg"
-            width="auto"
-            height="auto"
-          />
+          <img src="./scoot.svg" width="auto" height="auto" />
           <h1>Become a Dasher</h1>
           <p>
             As a delivery driver, you'll make reliable money-working
@@ -46,14 +39,10 @@ export default function Home() {
           </button>
         </div>
         <div className="container-box">
-          <img
-            src="https://cdn.doordash.com/media/consumer/home/landing/new/Storefront.svg"
-            width="auto"
-            height="auto"
-          />
+          <img src="./house.svg" width="auto" height="auto" />
           <h1>Become a Partner</h1>
           <p>
-            Grow your business and reach new costumers by pantering with us.
+            Grow your business and reach new costumers by partnering with us.
           </p>
           <button className="button-container-box">
             Sign up your store
@@ -61,14 +50,10 @@ export default function Home() {
           </button>
         </div>
         <div className="container-box">
-          <img
-            src="https://cdn.doordash.com/media/consumer/home/landing/new/iphone.svg"
-            width="154"
-            height="154"
-          />
+          <img src="./mobile.svg" width="154" height="154" />
           <h1>Try the App</h1>
           <p>
-            Experience the best your neighborhood has sto offer, all in one app.
+            Experience the best your neighborhood has to offer, all in one app.
           </p>
           <button className="button-container-box">
             Get the app
@@ -78,25 +63,17 @@ export default function Home() {
       </div>
       <div className="container-box-app">
         <div className="container-box-app-title">
-          <h1>It's all here. All in one app.</h1>
+          <h1>It`s all here. All in one app.</h1>
           <p>
             Discover local, on-demand delivery or Pickup from restaurants,
             nearby grocery and convenience stotes, and more.
           </p>
           <button className="button-container-box-applace">Get the app</button>
         </div>
-        <img
-          src="https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1024,format=auto,quality=50/https://cdn.doordash.com/media/consumer/home/landing/new/all_in_one.jpg"
-          width="720"
-          height="auto"
-        />
+        <img src="./food.jpg" width="720" height="auto" />
       </div>
       <div className="container-box-place">
-        <img
-          src="https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1024,format=auto,quality=50/https://cdn.doordash.com/media/consumer/home/landing/new/ev_fla_wel_alt.jpg"
-          width="720"
-          height="auto"
-        />
+        <img src="./food-vegetable.jpg" width="720" height="auto" />
         <div className="container-box-place-title">
           <h1>Every Flavor Welcome</h1>
           <p>
@@ -112,7 +89,7 @@ export default function Home() {
       <div className="bg-list">
         <div className="list-city">
           <ul>
-            <p>Top Cities</p>
+            <h4>Top Cities</h4>
             <li>
               <a href="">New York City</a>
             </li>
@@ -138,7 +115,7 @@ export default function Home() {
               <a href="">Las Vegas</a>
             </li>
           </ul>
-          <ul className="edit">
+          <ul style={{ marginBottom: -46 }}>
             <li>
               <a href="">San Francisco</a>
             </li>
@@ -164,7 +141,7 @@ export default function Home() {
               <a href="">Phoenix</a>
             </li>
           </ul>
-          <ul className="edit">
+          <ul style={{ marginBottom: -46 }}>
             <li>
               <a href="">Denver</a>
             </li>
@@ -191,7 +168,7 @@ export default function Home() {
             </li>
           </ul>
           <ul>
-            <p>Top Cuisines Near You</p>
+            <h4>Top Cuisines Near You</h4>
             <li>
               <a href="">Pizza Near Me</a>
             </li>
@@ -217,7 +194,7 @@ export default function Home() {
               <a href="">Seafood Near Me</a>
             </li>
           </ul>
-          <ul className="edit">
+          <ul style={{ marginBottom: -46 }}>
             <li>
               <a href="">Indian Food Near Me</a>
             </li>
@@ -246,7 +223,7 @@ export default function Home() {
         </div>
         <div className="list-toknow">
           <ul>
-            <p>Get To Know Us</p>
+            <h4>Get To Know Us</h4>
             <li>
               <a href="">About Us</a>
             </li>
@@ -284,8 +261,8 @@ export default function Home() {
               <a href="">Accessbility</a>
             </li>
           </ul>
-          <ul className="setting-margin">
-            <p>Let Us Help You</p>
+          <ul style={{ marginLeft: 100 }}>
+            <h4>Let Us Help You</h4>
             <li>
               <a href="">Account Details</a>
             </li>
@@ -296,8 +273,8 @@ export default function Home() {
               <a href="">Help</a>
             </li>
           </ul>
-          <ul className="setting-margin">
-            <p>Doing Business</p>
+          <ul style={{ marginLeft: 100 }}>
+            <h4>Doing Business</h4>
             <li>
               <a href="">Become a Dashboard</a>
             </li>
@@ -327,27 +304,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* <div className="download-available">
-            <div className="ios">
-              <img src="./phone.png" width="auto" height="40px" />
-              <div className="desc-ios">
-                <p>Available on the</p>
-                <h2>App Store</h2>
-              </div>
-            </div>
-            <div className="android">
-              <img
-                className="img-googleplay"
-                src="./google-play.png"
-                width="auto"
-                height="25px"
-              />
-              <div className="desc-android">
-                <p>ANDROID APP ON</p>
-                <h3>Google Play</h3>
-              </div>
-            </div>
-          </div> */}
         </div>
         <div className="footer">
           <div className="desc-footer">
